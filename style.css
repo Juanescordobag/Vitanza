@@ -136,10 +136,14 @@ footer {
 }
 
 .logo-footer {
-    width: 80px; /* Un poco más grande para que se vean los detalles */
-    filter: none; /* ELIMINAMOS EL FILTRO QUE SE VEÍA FEO */
-    margin-bottom: 15px;
-}
+        width: 60px; /* Tamaño controlado para celular */
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        padding: 30px 10px; /* Reducimos un poco el aire del footer en móvil */
+    }
 
 .social-links a {
     color: #27ae60; /* El verde de tu marca o de WhatsApp */
