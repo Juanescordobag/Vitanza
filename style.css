@@ -189,3 +189,7 @@ footer {
     color: #1a1a1a;
     margin: 10px 0;
 }
+/* Esto le da aire al saltar a la sección de menú */
+#menu {
+    scroll-margin-top: 80px;
+}
