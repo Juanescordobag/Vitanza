@@ -127,32 +127,25 @@ main p {
     }
 }
 footer {
-    background-color: #1a1a1a; /* Un negro suave */
-    color: white;
+    background-color: #f4f4f4; /* Un gris muy claro para que el logo original resalte */
+    color: #333; /* Texto oscuro para que sea legible */
     padding: 40px 20px;
     text-align: center;
     margin-top: 50px;
+    border-top: 1px solid #ddd;
 }
 
 .logo-footer {
-    width: 60px;
-    filter: brightness(0) invert(1); /* Este truco vuelve el logo blanco para que resalte */
+    width: 80px; /* Un poco más grande para que se vean los detalles */
+    filter: none; /* ELIMINAMOS EL FILTRO QUE SE VEÍA FEO */
     margin-bottom: 15px;
 }
 
-.social-links {
-    margin: 20px 0;
-}
-
 .social-links a {
-    color: #2ecc71; /* El verde saludable que usamos antes */
+    color: #27ae60; /* El verde de tu marca o de WhatsApp */
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-}
-
-.social-links a:hover {
-    color: white;
 }
 
 .copyright {
