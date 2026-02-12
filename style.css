@@ -99,3 +99,30 @@ main p {
     font-size: 0.9rem;
     color: #7f8c8d;
 }
+/* --- Estilos para Celulares (Pantallas de menos de 768px) --- */
+@media (max-width: 768px) {
+    
+    header {
+        flex-direction: column; /* Pone el logo arriba y el menú abajo */
+        padding: 1rem;
+    }
+
+    nav ul {
+        padding: 0;
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+    main h1 {
+        font-size: 2rem; /* Reduce el tamaño del título para que no ocupe toda la pantalla */
+    }
+
+    .grid-productos {
+        grid-template-columns: 1fr; /* En celular, mostramos un solo producto a la vez (una sola columna) */
+        padding: 0 10px;
+    }
+
+    .card img {
+        height: 200px; /* Reducimos un poco la altura de la imagen en móvil */
+    }
+}
