@@ -183,3 +183,9 @@ footer {
 #sobre-nosotros {
     scroll-margin-top: 100px;
 }
+.precio {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 10px 0;
+}
